@@ -1,0 +1,68 @@
+# =========================
+# Excel temporary & lock files
+# =========================
+~$*.xlsx
+~$*.xlsm
+~$*.xls
+*.xlk
+
+# =========================
+# Excel autosave & backup files
+# =========================
+*.tmp
+*.bak
+*.old
+*.backup
+
+# =========================
+# Exported / generated outputs
+# (ignore if dashboards generate these)
+# =========================
+# exports/
+# output/
+# generated/
+# *.pdf
+# *.csv
+# *.tsv
+
+# =========================
+# Logs & analysis scratch files
+# =========================
+logs/
+*.log
+
+# =========================
+# OS-specific files
+# =========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Editor / IDE files
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Python / R (if used for preprocessing)
+# =========================
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+.Rhistory
+.RData
+
+# =========================
+# Archives
+# =========================
+*.zip
+*.rar
+*.7z
